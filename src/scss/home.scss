@@ -1,0 +1,28 @@
+@import '../main.scss';
+
+#map {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 540px;
+  background-color: #2F4056
+}
+
+.pdf_canvas {
+  border: 1px solid #000;
+}
+
+.draw_canvas {
+  position: absolute;
+  top: 0;
+}
+
+.changeColor {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.info {
+  text-align: right;
+}
